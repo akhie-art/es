@@ -29,7 +29,7 @@ body {
   width: auto;
   height: 90%;
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
 }
 .logo span {
@@ -144,8 +144,7 @@ body {
 }
 .gambar-home img {
   width: 100%;
-  filter: 
-  drop-shadow( 0 0 20px #4e9f3d);
+  filter: drop-shadow(0 0 20px #4e9f3d);
 }
 .menu {
   width: 100%;
@@ -175,9 +174,9 @@ body {
 .list-menu p {
   text-align: center;
 }
-.list-menu h1{
-    font-size: 2.5rem;
-    color: #1e5128;
+.list-menu h1 {
+  font-size: 2.5rem;
+  color: #1e5128;
 }
 
 .tbl-pesan-menu {
@@ -220,7 +219,7 @@ body {
 }
 .galeri {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,18 +228,54 @@ body {
   width: 90%;
   height: 90%;
   /* background-color: red; */
-  display: grid;
-  grid-template-columns: 300px 300px;
-  grid-template-rows: 300px 300px;
-  /* grid-template-rows: 200px,200px; */
-  column-gap: 9%;
-  row-gap: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+  justify-content: center;
+
+}
+.konten-galeri img{
+  width: 300px;
+
+}
+
+.kontak {
+  width: 100%;
+  height: 30%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.list-gambar {
-  /* background-color: rgb(21, 0, 255); */
-}
-.list-gambar img {
+.konten-kontak {
   width: 100%;
+  height: 90%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.kontak a i {
+  font-size: 2.5rem;
+  color: #1e5128;
+}
+.kontak a i:hover {
+  font-size: 2.5rem;
+  color: #4e9f3d;
+  text-shadow:
+  0 0 5px #d8e9a8,
+  0 0 10px #d8e9a8,
+  0 0 15px #d8e9a8,
+  0 0 20px #d8e9a8;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.footer p {
+  color: #d8e9a8;
 }
