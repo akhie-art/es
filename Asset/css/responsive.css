@@ -1,0 +1,63 @@
+@media only screen and (max-width: 768px) {
+  .header {
+    /* width: 10%; */
+  }
+  .home {
+    flex-direction: column;
+    /* background-color: red; */
+    width: 100%;
+  }
+  .logo {
+    width: 50%;
+  }
+  .logo h1 {
+    /* width: auto; */
+    font-size: 1.3rem;
+  }
+  .header {
+    padding: 3%;
+    box-sizing: border-box;
+  }
+
+  .navBar a {
+    justify-content: start;
+    font-size: 0.9rem;
+    align-items: center;
+  }
+  .konten-tulisan {
+    margin-top: 30%;
+    /* background-color: pink; */
+    width: auto;
+  }
+  .tbl-pesan a {
+    font-size: 0.5rem;
+  }
+  .tbl-pesan i {
+    font-size: 1rem;
+  }
+  .konten-tulisan h1 {
+    font-size: 3rem;
+  }
+  .konten-gambar {
+    /* background-color: red; */
+    width: auto;
+  }
+  .konten-gambar img {
+  }
+  .list-menu {
+    margin-top: 15%;
+  }
+  .konten-galeri {
+    margin-top: 350%;
+    display: flex;
+    flex-direction: column;
+  }
+  .list-gambar {
+    width: 50%;
+  }
+  .list-gambar img {
+    width: 100%;
+    row-gap: 1%;
+    column-gap: 1%;
+  }
+}
